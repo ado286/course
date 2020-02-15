@@ -3,6 +3,7 @@
 <head>
     <title>First project</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
@@ -17,9 +18,25 @@
             <nav id="navigation">
                 <ul>
                     <li><a href="">Home</a> </li>
-                    <li><a href="">Services</a> </li>
+                    <li>
+                        <a href="">Services</a>
+                        <ul class="submenu">
+                            <li><a href="">Data science</a></li>
+                            <li><a href="">Bisniss Intelligence</a></li>
+                            <li><a href="">Data Management</a></li>
+                            <li><a href="">Softwer development</a></li>
+                        </ul>
+                    </li>
                     <li><a href="">About us</a> </li>
-                    <li><a href="">Team</a> </li>
+                    <li>
+                        <a href="">Team</a>
+                        <ul class="submenu">
+                            <li><a href="">Data science</a></li>
+                            <li><a href="">Bisniss Intelligence</a></li>
+                            <li><a href="">Data Management</a></li>
+                            <li><a href="">Softwer development</a></li>
+                        </ul>
+                    </li>
                     <li><a href="">Contact</a> </li>
                 </ul>
             </nav>
@@ -38,7 +55,7 @@
             </div><!-- END s-item  -->
              <div class="s-item">
                 <div class="image-holder">
-                    <img src="images/data_science_3.png" alt="data-science">
+                    <img src="images/data_science_icon.png" alt="data-science">
                 </div>
                 <h2>Data<br>Managment</h2>
                 <p>Prediction Modelling and Analytics is one of the core services</p>
@@ -150,6 +167,74 @@
             </div> <!--END team holder-->
         </div>  <!--END team container-->
     </section> <!-- END tim spacing-->
+    <section class="contact-s spacing">
+        <div class="container">
+            <h2 class="heading-two">Contact</h2>
+            <div class="contact-col">
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aspernatur aut earum laboriosam saepe tempora,
+                        ut vero. Ad aut eum
+                    </p>
+                    <address>
+                        <h4>Address:</h4>
+                        <p>TRUDO LLC<br>
+                        Rr. "Luan Haradinaj" nr 11-1 <br>
+                        Prishtina, Kosovo
+                        </p>
+                    </address>
+                    <p>Value<br>
+                        BmbH<br>
+                        Balck Durr allei 1<br>
+                    </p>
+                    <p>
+                        Eit Gmb
+                    </p>
+                </div>
+                <div class="col">
+                    <form action="" class="">
+                        <!--<label id="name">TEXT</label>-->
+                        <input type="text" id="name" placeholder="Name and Surname"/>
+                        <input type="text" class="text" placeholder="Subject"/>
+                        <input type="email" class="email" placeholder="Email"/>
+                        <textarea placeholder="Your message"></textarea>
+                        <button type="submit" >Send it</button>
+                    </form>
+
+                </div>
+                <div class="col p-left">
+                    <h4>Call us:</h4>
+                    <a href="tel:+38344524333">+383 (0) 44524333</a>
+                    <h4>Email:</h4>
+                    <a href="mailto:info@domain com" class="">info@domain com</a>
+                    <ul>
+                        <li><a class="fb-icon" href="" target="_blank"></a>Facebook</li>
+                        <li><a class="linkedin-icon" href="" target="_blank"></a>Linkedin</li>
+                    </ul>
+                </div>
+            </div>
+        </div> <!--END contact-s-->
+    </section>
+    <footer class="spacing">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <img src="images/unnamed.png" alt="Frst project" class="">
+            </a>
+            <p class="copyright">
+                c Copyright 2020, TRUDO <br>
+                ALL RIGHT RESERVED
+            </p>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 
 </body>
 </html>
